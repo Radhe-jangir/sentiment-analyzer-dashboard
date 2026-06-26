@@ -1,6 +1,6 @@
-# SentiMind: Senior Flask Sentiment Analysis Web Application
+# SentiForge: Senior Flask Sentiment Analysis Web Application
 
-SentiMind is a professional, production-grade Sentiment Analysis Web Application designed with a highly responsive glassmorphic dashboard interface, interactive analytical charts, and localized persistence. Built using Python, Flask (v3), TextBlob NLP, and SQLite, this project represents an internship-level, resume-worthy asset perfect for showcasing on GitHub, portfolios, or LinkedIn.
+SentiForge is a professional, production-grade Sentiment Analysis Web Application designed with a highly responsive glassmorphic dashboard interface, interactive analytical charts, and localized persistence. Built using Python, Flask (v3), TextBlob NLP, and SQLite, this project represents an internship-level, resume-worthy asset perfect for showcasing on GitHub, portfolios, or LinkedIn.
 
 ---
 
@@ -131,7 +131,7 @@ Render provides direct seamless hosting for Python Flask repositories. Follow th
 
 ```text
 +-----------------------------------+----------------------------------+
-|      [ SentiMind Navbar ]         |  Theme Change: [ Light / Dark ]  |
+|      [ SentiForge Navbar ]         |  Theme Change: [ Light / Dark ]  |
 +-----------------------------------+----------------------------------+
 |                                                                      |
 |  [ Input Box ]                    |  [ Live Outputs ]                |

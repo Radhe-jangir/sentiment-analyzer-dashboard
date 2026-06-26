@@ -224,7 +224,7 @@ gunicorn==21.2.0
 </head>
 <body>
     <nav class="navbar navbar-dark bg-dark">
-        <div class="container"><span class="navbar-brand">SentiMind Flask App</span></div>
+        <div class="container"><span class="navbar-brand">SentiForge Flask App</span></div>
     </nav>
     <div class="container py-5">
         <!-- Textbox form, results overlay, graphs & SQLite history table -->
@@ -279,9 +279,9 @@ body {
     name: "Production README (README.md)",
     path: "flask-project/README.md",
     lang: "markdown",
-    content: `# SentiMind: Senior Flask Sentiment Analysis Web Application
+    content: `# SentiForge: Senior Flask Sentiment Analysis Web Application
 
-SentiMind is a professional, production-grade Sentiment Analysis Web Application designed with a responsive Glassmorphic dashboard, dual-charts, SQLite history logs and dual exports (CSV + PDF).
+SentiForge is a professional, production-grade Sentiment Analysis Web Application designed with a responsive Glassmorphic dashboard, dual-charts, SQLite history logs and dual exports (CSV + PDF).
 
 ## Key Components:
 1. app.py (Express-like Router)

@@ -2,7 +2,7 @@
 
 AI-powered Sentiment Analysis Platform built with React, Flask, SQLite and TextBlob.
 
-This document outlines the authentication and database architecture implemented for **SentiMind**, conforming to senior full-stack standards utilizing SQLite storage patterns with cryptographic password security.
+This document outlines the authentication and database architecture implemented for **SentiForge**, conforming to senior full-stack standards utilizing SQLite storage patterns with cryptographic password security.
 
 ---
 
@@ -46,7 +46,7 @@ We handle authorization asynchronously via an elegant **Single-Session Bearer St
      Register / Login │ HTTP REST (POST)
              ▼       │
    ┌───────────────────────────────────┐
-   │       SentiMind API Backend       │
+   │       SentiForge API Backend       │
    ├───────────────────────────────────┤
    │ 1. Sanitation: trim & lowercase   │
    │ 2. Password: SHA-256 crypt digest │

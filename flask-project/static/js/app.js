@@ -1,4 +1,4 @@
-// SentiMind Front-end client controller logic
+// SentiForge Front-end client controller logic
 
 document.addEventListener('DOMContentLoaded', () => {
     // DOM Elements

@@ -349,9 +349,9 @@ export default function App() {
     doc.setFont("helvetica", "italic");
     doc.setFontSize(8);
     doc.setTextColor(148, 163, 184);
-    doc.text("Generated via SentiMind Senior Portfolio Dashboard SDK", 105, bottomLine + 45, { align: "center" });
+    doc.text("Generated via SentiForge Senior Portfolio Dashboard SDK", 105, bottomLine + 45, { align: "center" });
     
-    doc.save(`sentimind_sentiment_analysis_${record.id}.pdf`);
+    doc.save(`SentiForge_sentiment_analysis_${record.id}.pdf`);
   };
 
   // Handle Copy to Clipboard
@@ -401,8 +401,8 @@ export default function App() {
               </div>
               <div className="text-left">
                 <div className="flex items-center space-x-2">
-                  <span className="font-display font-bold text-lg md:text-xl tracking-tight bg-gradient-to-r from-[#3b82f6] to-[#06b6d4] bg-clip-text text-transparent">SentiMind</span>
-                  <span className={`text-[10px] uppercase font-mono px-2 py-0.5 rounded ${theme === "dark" ? "bg-white/5 text-[#06b6d4] border border-white/10" : "bg-blue-50 text-blue-600 border border-blue-100"}`}>Python Flask SDK</span>
+                  <span className="font-display font-bold text-lg md:text-xl tracking-tight bg-gradient-to-r from-[#3b82f6] to-[#06b6d4] bg-clip-text text-transparent">SentiForge</span>
+                  <span className={`text-[10px] uppercase font-mono px-2 py-0.5 rounded ${theme === "dark" ? "bg-white/5 text-[#06b6d4] border border-white/10" : "bg-blue-50 text-blue-600 border border-blue-100"}`}>React • Express • SQLite</span>
                 </div>
                 <p className="text-[10px] text-slate-500 dark:text-slate-400 font-medium">Automated Sentiment Diagnostics</p>
               </div>
@@ -672,7 +672,7 @@ export default function App() {
                   </div>
                   <h3 className="text-lg font-bold tracking-tight mb-1">🔐 Persistence and Analytics Panel Restricted</h3>
                   <p className="text-xs text-slate-500 dark:text-slate-400 max-w-md mx-auto mb-6 leading-relaxed">
-                    Personalized SQL databases, historical trends charts, and Excel/CSV exporting require an authenticated profile on SentiMind. Register or log in below to start saving your analysis logs separately.
+                    Personalized SQL databases, historical trends charts, and Excel/CSV exporting require an authenticated profile on SentiForge. Register or log in below to start saving your analysis logs separately.
                   </p>
                   
                   {/* Auth Mode switcher */}
@@ -1093,9 +1093,9 @@ export default function App() {
       Built by
     </p>
 
-    <h3 className="text-2xl font-bold text-slate-800 dark:text-white mt-1">
-      Radheshyam Suthar
-    </h3>
+    <h3 className="text-2xl font-bold bg-gradient-to-r from-violet-600 to-blue-500 bg-clip-text text-transparent mt-1">
+    Radheshyam Suthar
+</h3>
 
     <p className="text-slate-500 dark:text-slate-400">
       AI & Full Stack Developer
@@ -1109,7 +1109,7 @@ export default function App() {
         href="https://github.com/Radhe-jangir"
         target="_blank"
         rel="noopener noreferrer"
-        className="px-5 py-2 rounded-xl border hover:bg-slate-100 dark:hover:bg-white/10 transition"
+        className="w-[140px] sm:w-auto px-5 py-2 rounded-xl border transition hover:bg-slate-100 dark:hover:bg-white/10"
       >
         GitHub
       </a>
@@ -1118,21 +1118,21 @@ export default function App() {
         href="https://www.linkedin.com/in/radheshyamsuthar/"
         target="_blank"
         rel="noopener noreferrer"
-        className="px-5 py-2 rounded-xl border hover:bg-slate-100 dark:hover:bg-white/10 transition"
+        className="w-[140px] sm:w-auto px-5 py-2 rounded-xl border transition hover:bg-slate-100 dark:hover:bg-white/10"
       >
         LinkedIn
       </a>
 
       <a
         href="jangirradhe175@gmail.com"
-        className="px-5 py-2 rounded-xl border hover:bg-slate-100 dark:hover:bg-white/10 transition"
+        className="w-[140px] sm:w-auto px-5 py-2 rounded-xl border transition hover:bg-slate-100 dark:hover:bg-white/10"
       >
         Email
       </a>
 
       <button
         disabled
-        className="px-5 py-2 rounded-xl border opacity-60 cursor-not-allowed"
+        className="w-[140px] sm:w-auto px-5 py-2 rounded-xl border transition hover:bg-slate-100 dark:hover:bg-white/10"
       >
         Portfolio (Coming Soon)
       </button>
