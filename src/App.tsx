@@ -703,6 +703,7 @@ export default function App() {
                       <label className="block text-[10px] font-mono tracking-wider text-slate-400 dark:text-slate-500 uppercase mb-1">Profile Username</label>
                       <input 
                         type="text" 
+                        style={{ color: "red", backgroundColor: "white", caretColor: "red" }}
                         required
                         value={authUsernameInput}
                         onChange={(e) => setAuthUsernameInput(e.target.value)}
@@ -714,6 +715,7 @@ export default function App() {
                       <label className="block text-[10px] font-mono tracking-wider text-slate-400 dark:text-slate-500 uppercase mb-1">Security Password</label>
                       <input 
                         type="password" 
+                        style={{ color: "red", backgroundColor: "white", caretColor: "red" }}
                         required
                         value={authPasswordInput}
                         onChange={(e) => setAuthPasswordInput(e.target.value)}
