@@ -2,7 +2,7 @@
  * @license
  * SPDX-License-Identifier: Apache-2.0
  */
-
+import { BrainCircuit } from "lucide-react";
 import React, { useState, useEffect } from "react";
 import { 
   ResponsiveContainer, 
@@ -1035,10 +1035,118 @@ export default function App() {
       </main>
 
       {/* Primary footer */}
-      <footer className={`border-t py-6 text-center mt-16 transition-colors ${theme === "dark" ? "bg-[#050508]/40 border-white/10 text-slate-500" : "bg-slate-50 border-slate-200 text-slate-500"}`}>
-        <p className="text-xs font-medium">SentiMind Professional Portfolio Layout Platform — Powered by React, Vite, Node Express, and Custom Lexical Engine.</p>
-        <p className="text-[10px] font-mono text-slate-400 mt-1">Bound to Port 3000 — Preserving SQLite Database schemas (analyses.db) and Flask (Jinja2) templates.</p>
-      </footer>
+      <footer className="mt-14 border-t border-slate-200 dark:border-white/10 py-10">
+  <div className="max-w-5xl mx-auto px-6 text-center">
+
+    {/* Logo */}
+    <div className="flex justify-center items-center gap-3 mb-3">
+
+      <div className="w-14 h-14 rounded-2xl bg-gradient-to-r from-violet-600 to-blue-500 flex items-center justify-center shadow-xl text-white text-2xl">
+        <BrainCircuit className="w-8 h-8 text-white" />
+      </div>
+
+      <div className="text-left">
+        <h2 className="text-3xl font-bold tracking-tight bg-gradient-to-r from-violet-600 to-blue-500 bg-clip-text text-transparent">
+          SentiForge
+        </h2>
+
+        <p className="text-slate-500 dark:text-slate-400 text-sm">
+          AI-Powered Sentiment Intelligence
+        </p>
+      </div>
+
+    </div>
+
+    {/* Features */}
+
+    <div className="flex flex-wrap justify-center gap-6 mt-8 text-sm font-medium">
+
+      <div className="flex items-center gap-2">
+        <span className="text-green-500">✔</span>
+        Live Analysis
+      </div>
+
+      <div className="flex items-center gap-2">
+        <span className="text-green-500">✔</span>
+        Interactive Analytics
+      </div>
+
+      <div className="flex items-center gap-2">
+        <span className="text-green-500">✔</span>
+        PDF Reporting
+      </div>
+
+      <div className="flex items-center gap-2">
+        <span className="text-green-500">✔</span>
+        Secure Authentication
+      </div>
+
+    </div>
+
+    {/* Divider */}
+
+    <div className="w-40 h-px bg-gradient-to-r from-transparent via-slate-300 dark:via-slate-700 to-transparent mx-auto my-8" />
+
+    {/* Author */}
+
+    <p className="text-slate-500 text-sm">
+      Built by
+    </p>
+
+    <h3 className="text-2xl font-bold text-slate-800 dark:text-white mt-1">
+      Radheshyam Suthar
+    </h3>
+
+    <p className="text-slate-500 dark:text-slate-400">
+      AI & Full Stack Developer
+    </p>
+
+    {/* Social Links */}
+
+    <div className="flex justify-center gap-4 mt-8">
+
+      <a
+        href="https://github.com/Radhe-jangir"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="px-5 py-2 rounded-xl border hover:bg-slate-100 dark:hover:bg-white/10 transition"
+      >
+        GitHub
+      </a>
+
+      <a
+        href="https://www.linkedin.com/in/radheshyamsuthar/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="px-5 py-2 rounded-xl border hover:bg-slate-100 dark:hover:bg-white/10 transition"
+      >
+        LinkedIn
+      </a>
+
+      <a
+        href="jangirradhe175@gmail.com"
+        className="px-5 py-2 rounded-xl border hover:bg-slate-100 dark:hover:bg-white/10 transition"
+      >
+        Email
+      </a>
+
+      <button
+        disabled
+        className="px-5 py-2 rounded-xl border opacity-60 cursor-not-allowed"
+      >
+        Portfolio (Coming Soon)
+      </button>
+
+    </div>
+
+    {/* Copyright */}
+
+    <p className="mt-8 text-xs text-slate-400">
+      © {new Date().getFullYear()} SentiForge. All rights reserved.
+    </p>
+
+  </div>
+</footer>
 
     </div>
   );
